@@ -233,7 +233,7 @@ services:
         condition: service_completed_successfully
         
   db:
-    image: postgres
+    image: postgres:13
     volumes:
       - ./db_data_main:/var/lib/postgresql/data
       - ./main_db_init:/docker-entrypoint-initdb.d/
