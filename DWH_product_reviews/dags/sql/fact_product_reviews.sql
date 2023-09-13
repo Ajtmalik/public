@@ -1,0 +1,2 @@
+insert into curated.fact_product_reviews (reviewer_id,asin,helpful,review_text,summary,review_rating,review_date_id,raw_review_time,ins_ts)
+select distinct reviewerid,asin,helpful,reviewtext,summary,overall,to_char(unixreviewtime,'YYYYMMDD')::int,unixreviewtime,now() from staging.reviews;
