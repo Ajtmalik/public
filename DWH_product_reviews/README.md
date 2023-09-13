@@ -27,7 +27,7 @@ Airflow task is used to download files and Load them into STAGING Tables.
 
 Below dimensional model is implemented in Postrges DB.
 
-![alt text](https://github.com/Ajtmalik/public/blob/DWH_product_reviews/main/model.jpg?raw=true)
+![alt text](https://github.com/Ajtmalik/public/DWH_product_reviews/main/model.jpg?raw=true)
 
 ## Running solution
 
